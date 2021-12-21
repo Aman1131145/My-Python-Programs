@@ -1,8 +1,12 @@
-def sum(i):
-    if i==n+1:
-        return 
-    else:
-        return i + sum(i+1)
-n = int(input("Enter the number : "))
-print(sum(n))
+def recur_sum(n):
+   if n <= 1:
+       return n
+   else:
+       return n + recur_sum(n-1)
 
+num = int(input("Enter a number here : "))
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   print("The sum is",recur_sum(num))
