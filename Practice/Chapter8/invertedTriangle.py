@@ -1,5 +1,3 @@
-# Python3 code to demonstrate star pattern
-
 # function to print spaces
 def print_asterisk(space):
 	
