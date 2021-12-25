@@ -1,4 +1,4 @@
-with open("poem.txt", "r") as f :
+with open("tables/poem.txt", "r") as f :
     t = f.read()
 
 if 'Twinkle' in t:
