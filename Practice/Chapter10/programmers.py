@@ -23,7 +23,7 @@ emp1 = Employee("Zara", 2000)
 emp2 = Employee("Manni", 5000)
 emp1.displayEmployee()
 emp2.displayEmployee()
-with open("employee.txt","a") as f :
+with open("textFiles/employee.txt","a") as f :
     f.write("Pgaal ho gya hai nall kahin ka")
 
 print ("Total Employee %d" % Employee.empCount)
